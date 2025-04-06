@@ -1,0 +1,9 @@
+<div class="search">
+    <input type="text" [formControl]="searchControl" placeholder="Search quotes...">
+</div>
+
+<ul *ngIf="quotes.length">
+    <li *ngFor="let quote of quotes" >
+        <strong>{{ quote }}</strong>
+    </li>
+</ul>
