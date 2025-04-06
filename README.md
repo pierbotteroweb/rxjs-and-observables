@@ -55,8 +55,16 @@ This mini Angular app demonstrates the **four main types of RxJS Subjects** with
 
 ## 📂 Project Structure
 
-src/ ├── app/ │ ├── home/ # HomeComponent │ ├── subject-demo/ # SubjectComponent │ ├── behavior-subject-demo/ # BehaviorSubjectComponent │ ├── replay-subject-demo/ # ReplaySubjectComponent (uses ngModel) │ ├── async-subject-demo/ # AsyncSubjectComponent │ └── app-routing.module.ts # Routing config │ └── app.component.ts/html # Main UI + navbar
-
+```bash
+src/
+└── app/
+    ├── home/                    # HomeComponent
+    ├── subject-demo/            # SubjectComponent
+    ├── behavior-subject-demo/   # BehaviorSubjectComponent
+    ├── replay-subject-demo/     # ReplaySubjectComponent (uses ngModel)
+    ├── async-subject-demo/      # AsyncSubjectComponent
+    ├── app-routing.module.ts    # Routing config
+    └── app.component.ts/html    # Main UI + navbar
 
 ---
 
