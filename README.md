@@ -55,7 +55,6 @@ This mini Angular app demonstrates the **four main types of RxJS Subjects** with
 
 ## 📂 Project Structure
 
-```bash
 src/
 └── app/
     ├── home/                    # HomeComponent
